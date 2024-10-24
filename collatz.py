@@ -1,9 +1,6 @@
 
 def is_odd(number: int) -> bool:
-    if number%2 == 0:
-        return True
-    else:
-        return False
+    return ((n%2) == 0)
 
 def collatz(number: int) -> list:
     numbers: list = []
